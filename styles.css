@@ -43,10 +43,40 @@ nav {
 
 .hero {
     background-color: #1F2937;
-    padding: 48px 250px;
+    padding: 64px 250px;
     color: #FFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-description {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sign-up_btn {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: all 0.5s ease-in-out;
+}
+
+.sign-up_btn:hover {
+    background-color: #FFF;
+    color: #1F2937;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
