@@ -20,7 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 250px;
+    padding: 20px 12.5%;
     background-color: #1F2937;
     color: #FFF;
 }
@@ -43,10 +43,10 @@ nav {
 
 .hero {
     background-color: #1F2937;
-    padding: 100px 250px;
+    padding: 100px 12.5%;
     color: #FFF;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -92,3 +92,4 @@ nav {
     width: 600px;
     height: 250px;
 }
+
