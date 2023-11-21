@@ -83,7 +83,12 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.25);
 }
 
-.right-content img {
-    width: 500px;
-    height: autp;
+.right-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 600px;
+    height: 250px;
 }
