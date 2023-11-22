@@ -135,3 +135,25 @@ nav {
     text-align: center;
     color: #1F2937;
 }
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p span {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    align-self: flex-end;
+}
